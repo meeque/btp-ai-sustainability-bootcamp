@@ -19,6 +19,7 @@ import tensorflow.keras.metrics as tfm
 import logging
 import sys
 sys.path.append('/usr/lib/python3.8/site-packages/')
+sys.path.append('/examples')
 from tensorflow_examples.models.pix2pix import pix2pix
 
 
