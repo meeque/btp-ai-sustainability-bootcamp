@@ -1,6 +1,8 @@
+# hidden and backup files
 .*
 *~
 
+# misc filename extensions
 *.DS_Store
 *.orig
 *.log
@@ -9,4 +11,9 @@
 *.iml
 *.flattened-pom.xml
 
+# data files
 training_output.json 
+
+# credentials files
+/src/ai-models/defect-detection/exercises/files/*.json
+/src/ai-models/predictive-maintenance/exercises/files/*.json
