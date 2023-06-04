@@ -1,14 +1,12 @@
-# Other
+.*
+*~
+
 *.DS_Store
 *.orig
 *.log
-
+*.tmp
+*.bak
 *.iml
 *.flattened-pom.xml
 
-# IDEs
-# .vscode
-# .idea
-
-# added by cds deploy
-# default-env.json
+training_output.json 
