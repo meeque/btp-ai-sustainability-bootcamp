@@ -30,10 +30,10 @@ spec:
         imagePullSecrets:
           - name: docker-registry-secret
         minReplicas: 1
-        maxReplicas: 5
+        maxReplicas: 3
         containers:
         - name: kserve-container
-          image: "docker.io/YOUR_DOCKER_USERNAME/image-seg-infer:mobilenet"
+          image: "docker.io/meeque/opensap-sustai1-defect-detection-infer"
           ports:
             - containerPort: 9001
               protocol: TCP
