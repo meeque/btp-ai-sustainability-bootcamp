@@ -33,6 +33,7 @@ from tensorflow.keras.callbacks import ReduceLROnPlateau
 import albumentations as A
 import sys
 sys.path.append('/usr/lib/python3.8/site-packages/')
+sys.path.append('/examples')
 from tensorflow_examples.models.pix2pix import pix2pix
 
 from ai_core_sdk.ai_core_v2_client import AICoreV2Client
